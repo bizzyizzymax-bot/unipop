@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-depop: #ff2300;
+  --font-sans: "Inter", Arial, sans-serif;
+}
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  @apply bg-white text-black antialiased;
+}
+
+/* Thin scrollbars for the inbox */
+.scroll-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}

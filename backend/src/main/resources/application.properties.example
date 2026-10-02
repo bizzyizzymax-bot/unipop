@@ -1,0 +1,17 @@
+spring.application.name=market
+debug=true
+jwt.secret=CHANGE_ME_TO_A_BASE64_ENCODED_SECRET
+jwt.expiration=86400000
+# Connection parameters
+spring.datasource.url=jdbc:postgresql://localhost:5432/ninermarket
+spring.datasource.username=postgres
+spring.datasource.password=CHANGE_ME
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA / Hibernate properties
+spring.jpa.hibernate.ddl-auto=update
+
+# Listing photos are posted inline as base64 data-urls
+spring.servlet.multipart.max-file-size=15MB
+spring.servlet.multipart.max-request-size=60MB
+spring.jpa.open-in-view=true
