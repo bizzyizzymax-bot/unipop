@@ -10,7 +10,7 @@ I architected an app similar to Depop/OfferUp but for college students only. Stu
 - Up to 10 photos per listing, picked straight from your phone
 - Message the seller, save stuff you like, meet up, deal done
 
-## The stack (aka what I learned this semester)
+## Tech stack
 
 **Backend**
 
